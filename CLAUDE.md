@@ -28,12 +28,12 @@ The library follows a modular architecture with these key components:
 
 ### Key Endpoints
 
-- `/.well-known/agent.json` - Agent card endpoint (GET/HEAD/OPTIONS)
+- `/.well-known/agent-card.json` - Agent card endpoint (GET/HEAD/OPTIONS)
 - `/` - Main A2A protocol endpoint (POST) for message/send, tasks/get, tasks/cancel operations
 
 ### Protocol Implementation
 
-The library implements the A2A protocol v0.2.5, supporting:
+The library implements the A2A protocol v0.3.0, supporting:
 - Task-based message exchange
 - JSON-RPC 2.0 communication
 - Agent capabilities and skill definitions
